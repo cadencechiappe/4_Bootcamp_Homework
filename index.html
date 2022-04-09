@@ -6,27 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="Description" content="Enter your description here" />
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/style.css">
   <title>Coding Quiz</title>
 </head>
 
+<header class="navbar-header">
+    <nav class="navbar">
+        <span class="navbar-brand mb-0 h1">Coding Quiz</span>
+        <div id="countdown">__ seconds remaining</div>
+    </nav>
+</header>
+
 <body>
-    <div>
-        <nav class="navbar sticky-top navbar-light bg-light">
-            <a class="navbar-brand" href="#">Header</a>
-          </nav>
-    </div>
     <div class="quiz-container">
         <div id="question-container" class="hide">
             <div id="answer-buttons" class="ans-btns">
-                <button class="btn">Answer A</button>
-                <button class="btn">Answer B</button>
-                <button class="btn">Answer C</button>
-                <button class="btn">Answer D</button>
+                <button class="btn btn-block btn-primary">Answer A</button>
+                <button class="btn btn-block btn-primary">Answer B</button>
+                <button class="btn btn-block btn-primary">Answer C</button>
+                <button class="btn btn-block btn-primary">Answer D</button>
             </div>
         </div>
-        <div class="start-button-div">
-            <button id="start-btn" class="start-button btn">Start Quiz</button>
+        <div class="start-btn-container">
+            <div class="btn start-button-div btn-secondary">
+                <button id="start-btn" class="start-button btn">Start Quiz</button>
+            </div>
         </div>
     </div>
+    <script src="./assets/script.js"></script>
 </body>
