@@ -4,18 +4,20 @@
     --blue: rgb(62, 108, 145);
     --darkerblue: rgb(51, 69, 92);
     --darkestblue: rgb(15, 31, 59);
-    
 }
 
+/* general background color settings */
 * {
   background-color: var(--lightblue);  
 }
 
+/* basic body settings */
 body {
     padding: 0;
     margin: 0;
 }
 
+/* navbar class color changes from styled default */
 .navbar {
     background-color: var(--darkestblue);
     color: var(--lightblue);
@@ -25,10 +27,12 @@ body {
     background-color: var(--darkestblue);
 }
 
+/* countdown font color settings */
 #countdown {
     background-color: var(--darkestblue);
 }
 
+/* quiz container settings */
 .quiz-container {
     padding: 20px;
     width: 100%;
@@ -42,6 +46,7 @@ body {
     color: var(--darkestblue);
 }
 
+/* quiz answer button settings */
 .btn-primary {
     background-color: var(--darkestblue);
     color: var(--lightblue);
@@ -51,6 +56,7 @@ body {
     background-color: var(--darkerblue);
 }
 
+/* start button settings */
 .start-btn-container {
     padding: 25px;
 }
