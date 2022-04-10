@@ -10,6 +10,7 @@ document.getElementById("start-btn").addEventListener("click", function(){
         }
     }, 1000);
     console.log(countdown);
+    document.getElementById("start-btn").style.display = 'none';
 });
 
 var questions = [
@@ -62,3 +63,7 @@ document.getElementById("start-btn").addEventListener("click", function(){
 // add pop up that allows initials to be added to score card div
 // there will need to be a button on the pop up to save score
 // button will be an event listener that saves the info into the score card
+
+
+//might need to create buttons in javascript and delete answer buttons
+//made in HTML
